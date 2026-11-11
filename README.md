@@ -1,4 +1,4 @@
-# hjarni-com
+# Hjarni
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,141 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-hjarni-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://hjarni.com/
+Hjarni provides a long‑term memory platform for AI assistants like ChatGPT and Claude. It offers a Markdown knowledge base where users can store notes, organize them with tags and containers, and export or import data. The service includes an official MCP server, API reference, and integrations with popular tools, enabling persistent context for conversational AI.
+
+**Areas:** Company · AI · Memory · KnowledgeBase · Integration
+
+## Hjarni on APIs.io
+
+Everything profiled for Hjarni is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/hjarni-com/](https://apis.io/providers/hjarni-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (7)
+
+- [Hjarni Containers API](https://apis.io/apis/hjarni-com/hjarni-com-containers-api/) — Folders (containers) that hold notes and other folders, and their AI instructions.
+- [Hjarni Dashboard API](https://apis.io/apis/hjarni-com/hjarni-com-dashboard-api/) — Counts and recent notes, in one call.
+- [Hjarni Files API](https://apis.io/apis/hjarni-com/hjarni-com-files-api/) — Attaching files to notes.
+- [Hjarni Me API](https://apis.io/apis/hjarni-com/hjarni-com-me-api/) — The account and the token making the request.
+- [Hjarni Notes API](https://apis.io/apis/hjarni-com/hjarni-com-notes-api/) — Markdown notes, their links, revision history and Trash.
+- [Hjarni Search API](https://apis.io/apis/hjarni-com/hjarni-com-search-api/) — Full-text search over notes.
+- [Hjarni Tags API](https://apis.io/apis/hjarni-com/hjarni-com-tags-api/) — Tags that label notes across folders.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Hjarni Agentic Access](https://apis.io/agentic-access/hjarni-com/hjarni-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Container](https://apis.io/schemas/hjarni-com/hjarni-com-container/)
+- [Dashboard](https://apis.io/schemas/hjarni-com/hjarni-com-dashboard/)
+- [Me](https://apis.io/schemas/hjarni-com/hjarni-com-me/)
+- [NoteSummary](https://apis.io/schemas/hjarni-com/hjarni-com-note-summary/)
+- [Revision](https://apis.io/schemas/hjarni-com/hjarni-com-revision/)
+- [TrashedNote](https://apis.io/schemas/hjarni-com/hjarni-com-trashed-note/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Hjarni Com Context](https://apis.io/jsonld/hjarni-com/hjarni-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Hjarni API Rules](https://apis.io/rules/hjarni-com/hjarni-com-rules/)
+
+#### Security (4)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Hjarni Authentication](https://apis.io/security/hjarni-com/hjarni-com-authentication/)
+- [Hjarni Domain Security](https://apis.io/security/hjarni-com/hjarni-com-domain-security/)
+- [Hjarni Trust Center](https://apis.io/security/hjarni-com/hjarni-com-trust-center/)
+- [Hjarni Vulnerability Disclosure](https://apis.io/security/hjarni-com/hjarni-com-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Hjarni Plans Pricing](https://apis.io/plans/hjarni-com/hjarni-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://hjarni.com/)
+- [Documentation](https://hjarni.com/docs)
+- [Getting started](https://hjarni.com/docs/getting-started)
+- [API reference](https://hjarni.com/llms.txt)
+- [Pricing](https://hjarni.com/pricing)
+- [Support](https://hjarni.com/use-cases/support)
+- [Changelog](https://hjarni.com/changelog)
+- [Blog](https://hjarni.com/blog)
+- [Security](https://hjarni.com/security)
+- [Compliance](https://hjarni.com/security)
+- [Terms of service](https://hjarni.com/terms)
+- [Privacy policy](https://hjarni.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 66.1** — strong · rubric 0.27.0 · scored 2026-11-11
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 64.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 63.6 |
+| Access clarity | 75.8 |
+
+**Agent readiness 58.4** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 32.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/hjarni-com/](https://apis.io/providers/hjarni-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Hjarni: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/hjarni-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
